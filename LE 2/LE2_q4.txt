@@ -1,0 +1,26 @@
+class One{
+	int a=10;
+	One(int a)
+	{
+		this.a = a;
+	}
+	One(){
+		System.out.println(a);
+	}
+}
+class Two extends One{
+
+	Two()
+	{
+		System.out.println("Inside ChildClass constructor!!");		
+	}
+}
+public class Main {
+
+	public static void main(String[] args) {
+
+		 Two obj = new Two();
+       
+	}
+
+}

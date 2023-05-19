@@ -1,0 +1,33 @@
+
+
+class Mother
+{				//base class
+  public int x = 0;
+  public Mother ()
+  {
+    x = 5;
+  }
+  public void show ()
+  {
+    System.out.println (x);
+  }
+}
+
+
+class Child extends Mother
+{				//derived class 
+
+}
+
+
+public class Main
+{
+ 
+   public static void main (String[]args)
+   {
+    Mother m = new Mother ();
+      m.show ();
+    Child ch = new Child ();
+      ch.show ();
+    }
+  }
